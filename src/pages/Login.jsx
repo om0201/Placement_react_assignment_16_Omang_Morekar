@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-  const [email, setEmail] = useState("eve.holt@reqres.in");
-  const [password, setPassword] = useState("cityslicka");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate("");
 
   const loginHandler = async (e) => {
